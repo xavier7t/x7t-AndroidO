@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,9 +23,11 @@ public class MainActivity extends AppCompatActivity {
         String password = pwEditText.getText().toString();
         if (username.equals("") || password.equals("")) {
             Log.e("Registration Failed", "Please enter both username and password.");
+            Toast.makeText(this,"Registration Failed! Please enter both username and password.",Toast.LENGTH_SHORT).show();
         } else {
             Log.i("","Signing you up...");
             Log.i("Registration Succeeded", "Username: " + username + "; Password: " + password + ".");
+            Toast.makeText(this,"Welcome "+ username +" !",Toast.LENGTH_SHORT).show();
         }
     }
     @Override
