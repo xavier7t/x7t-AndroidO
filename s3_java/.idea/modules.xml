@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/s3_25_hellowordwithjava/s3_25_hellowordwithjava.iml" filepath="$PROJECT_DIR$/s3_25_hellowordwithjava/s3_25_hellowordwithjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s3_27_variables/s3_27_variables.iml" filepath="$PROJECT_DIR$/s3_27_variables/s3_27_variables.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/s3_java.iml" filepath="$PROJECT_DIR$/.idea/s3_java.iml" />
     </modules>
   </component>
